@@ -12,14 +12,14 @@ export interface RecipeSummary {
   visibility: Visibility;
 }
 
-export interface Ingredient {
+interface Ingredient {
   quantity: string;
   unit: string;
   ingredient: string;
   ingredient_id: number | null;
 }
 
-export interface Instruction {
+interface Instruction {
   step_number: number;
   instruction: string;
 }
